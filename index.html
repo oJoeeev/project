@@ -10,6 +10,10 @@
     <!-- TITLE -->
     <title>TravelBugs</title>
 
+    <!-- FONT LINKS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -21,8 +25,6 @@
     <script src="assets/js/accordion.js"></script>
     <script src="assets/js/submitform.js"></script>
 
-
-
 </head>
 
 <body>
@@ -30,7 +32,8 @@
   	<header>
         <a class="scroll" id="hero"></a>
 		<h3><a href="#hero">TravelBugs</a></h2>
-		<nav>
+        <!-- NAVIGATION BAR -->
+		<nav class="menu">
 			<li><a href="#hero">Home</a></li>
 			<li><a href="#about">About</a></li>
 			<li><a href="#blog">Blog</a></li>
@@ -45,7 +48,7 @@
         <h1>We are the TravelBugs</h1>
         <!-- script.js LOOPS THROUGH THESE "We are (X)" BITS -->
         <h3>We are <span class="change">Travellers, Dreamers, Life Changers</span></h3>
-        <a href="#about"><h3> Find out about us!</h3></a>
+        <a href="#about"> Find out about us!</a>
     </section>
     
     <!-- ABOUT -->
@@ -105,69 +108,159 @@
         <hr>
         <h2>Blog</h2>
         <p>Here are our current travels so far!</p>
-
+        <!-- START POSTS -->
         <ul class="grid">
+            <!-- BUDAPEST -->
             <li class="row">
                 <article class="post">
-                    <img src="assets/img/blog/" alt="Budapest"/>
+                    <img src="assets/img/blog/budapest.jpg" alt="Budapest"/>
                     <div class="post-toggle">
                         <span class="post-title">Budapest</span><br>
                         <span class="post-author">By Joe</span><br>
-                        <span class="post-snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span><br><br>
+                        <span class="post-snippet">Want to hear about our trip to Budapest?</span><br><br>
                         <span class="call-to-action">Click to read on</span>
                     </div>
+                    
                     <div class="post-content default">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <p> April 2016 was the time we officially caught the travel bug. Our adventure started when we decided to take our first official holiday together. 
+                            Typically people seem to opt for the holidays with sunshine and sea, we are a bit different. 
+                            We both seem to really love exploring new cultures and really immersing ourselves in their history and trying local cuisine. 
+                            While looking at travel deals we came across Budapest in Hungary and immediately were captivated by the recommended sights and tourist reviews.
+                            <br>
+                            <br>
+                            An extremely affordable travel destination, Budapest became our first confirmed trip. We stayed in a quaint hotel located within the old Jewish quarter of Budapest Ferencváros, 
+                            which has now become a flourishing business district. The cobbled streets are full of cute cafés, bakeries and bistros. A short car ride away from the airport and close to all local amenities, 
+                            it was an ideal place to stay. The River Danube divides the city of Budapest, forming the two sides of Buda and Pest. We stayed on the Pest side as Buda is more rural. 
+                            Before arriving we looked at maps and pinned out places we wanted to see, however it was not until we arrived and started to explore when we realised it is actually quite easy to walk the city and cross to either side. 
+                            There are multiple bridges joining the two sides which are pedestrian friendly, the most famous being the Liberty Bridge. Originally built in 1894, 
+                            the bridge connects two main squares on each side. We walked from the Great Market Hall square after doing some shopping and were able to cross to the Buda side within 10-15 minutes. 
+                            <br>
+                            <br>
+                            Budapest does offer a great hop on hop off bus tour service with the open topped buses and regular checkpoints at all the famous sights, 
+                            however we found it easier to adhere to our own schedule so we could take our time looking at certain landmarks and spend longer at some more than others. 
+                            A particularly special find for us was a local Serbian Greek Orthodox Church which coincidentally is a type of mixture of our own roots. 
+                            We found the architecture and religious icons and paintings within the actual church to be so beautiful. 
+                            We spent our first day mostly exploring the area of Vati Utca the most famous streets of Budapest which features churches, restaurants, cafés and shops. 
+                            We were so impressed by the affordable prices food and drinks at almost everywhere we chose to go. This was one of the biggest attraction points for us, the affordability of the entire trip. 
+                            <br>
+                            <br>
+                            During the rest of our week long trip we divided our time between museums, trying local cuisine and the main sightseeing attractions Budapest has to offer. 
+                            The Applied Arts Museum and National Museum had so much to offer in terms of variety that interested the both of us. 
+                            Having a mixture of traditional art from centuries ago as well as modern art with the usage of technology meant there was plenty for us to see. 
+                            We were so impressed by the quality of the exhibitions as well as use of space and the actual architecture of the museums themselves. 
+                            The maintenance of Baroque influenced features was so beautiful to see in person. 
+                            <br>
+                            <br>
+                            Overall we have completely fallen in love with the city of Budapest and for our very first trip together, we feel it was such a successful one. 
+                            Being such an organised duo really helped form an itinerary and cross off our goals, all while sticking to a budget.</p>
                     </div>
                 </article>
             </li>
+             <!-- CYPRUS -->
             <li class="row">
                 <article class="post">
-                    <img src="" alt="Cyprus"/>
+                    <img src="assets/img/blog/cyprus.jpg" alt="Cyprus"/>
                     <div class="post-toggle">
                         <span class="post-title">Cyprus</span><br>
                         <span class="post-author">By Jess</span><br>
-                        <span class="post-snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span><br><br>
+                        <span class="post-snippet">Want to hear about our trip to Cyprus?</span><br><br>
                         <span class="call-to-action">Click to read on</span>
                     </div>
+                    <!-- ACCORDION JS -->
                     <div class="post-content default">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <p> During the summer we took a 2 week trip to Jessica's homeland of Cyprus, a small island in the Mediterranean Sea. With scorching temperatures of upto 45 degrees Celsius while we were there, 
+                            scheduling how we wanted to spend our time was imperative in order to deal with the heat. We were so excited to be taking this trip together, as much as it was for Jessica to be returning home for a while, 
+                            it was also special that we were going together and she was able to experience the island as a tourist. 
+                            <br>
+                            <br>
+                            The first week or so we spent it in the capital of Nicosia, which is also the largest city of the island. It has been continuously inhabited for over 4,500 years and has been the capital of Cyprus since the 10th century. 
+                            Nicosia was divided into the southern Greek Cypriot and the northern Turkish Cypriot parts in 1963, following wars that broke out. Today, the northern part of the city is the capital of Northern Cyprus, 
+                            a de facto state that is considered to be occupied Cypriot territory by Turkish Cypriots. Since 1974, after an attempted the coup d'état precipitated the invasion of the island by the Turkish army. 
+                            They advanced their positions, eventually capturing a total of 37% of Cypriot territory including the northern part of Nicosia. Although the borders have been opened by monitored access, 
+                            it still remains very much a divided island to this present day. Walking around the old streets of Nicosia and looking over to the border, walls still full of bullet holes and soldiers on guard at every checkpoint, 
+                            it was such a surreal but interesting experience to witness as a foreigner. For such a small island, there is such a tremendous history and sense of patriotism.
+                            <br>
+                            <br>
+                            But of course we couldn't travel to Cyprus and not visit its infamous white beaches with crystal clear blue waters. Both avid fans of the water and exploring, 
+                            we spent a lot of time diving and swimming far out to see different types of marine life. With the go pro in hand to record footage, 
+                            it was such an incredible experience to be in the water together and see so many different and colourful forms of life. 
+                            That was definitely highlights of our trip and has made us realise how much we love being underwater and even made us consider getting our diving licenses in the future. 
+                            It would definitely be something useful to have as we plan on taking more trips around the world where you can explore the oceans. 
+                            <br>
+                            <br>
+                            From one extreme beauty to another, we also drove out for day trips to the cities of Limassol and Paphos and then the mountains of Cyprus. 
+                            These were entirely different experiences and was so impressive in terms of how much Cyprus has to offer, each place is so different from the one before. 
+                            Limassol and Paphos we visited archaeological sites with on going excavations, ruins, old forts and castles. 
+                            It was incredible to see the history of an island unfolding by looking at mosaics and ruins made from stone. 
+                            We took a hike over the Archaeological Park a recognised World UNESCO Heritage Site to see mosaics and ruins dating back from the Roman era, including pillars and even a grand amphitheatre. 
+                            Despite the sweltering heat and our sunburns, we were both in awe at the amount of history and evidence left behind from previous conquerors of the island. 
+                            From these cities we moved on to seeing small villages and having lunch there within the Mountains. Much cooler up there, we were able to take a break and see the entire island view which was stunning.
+                            <br>
+                            <br>
+                            A very informative and relaxing trip at the same time, it was special to have shared visiting this country together and we look forward to being able to go back again and explore more of it together.</p>
                     </div>
                 </article>
             </li>
+            <!-- PARIS -->
             <li class="row">
                 <article class="post">
-                    <img src="" alt="Paris"/>
+                    <img src="assets/img/blog/paris.jpg" alt="Paris"/>
                     <div class="post-toggle">
                         <span class="post-title">Paris</span><br>
                         <span class="post-author">By Joe</span><br>
-                        <span class="post-snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span><br><br>
+                        <span class="post-snippet">Want to hear about our trip to Paris?</span><br><br>
                         <span class="call-to-action">Click to read on</span>
                     </div>
+                    <!-- ACCORDION JS -->
                     <div class="post-content default">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <p>With the temptation of a cheap flight away, we went to Paris for just a week. Although the trip was mainly to take Jessica to Disneyland for her birthday, we had some time to explore the Parisian culture.
+                            <br>
+                            <br>
+                            Rather than spending money on private transfers or taxis, we decided to do as the locals do and use the metro; which is very much like our underground in London. 
+                            Although a little expensive and confusing at first, we soon managed to understand the system and plan our routes. 
+                            We chose not to go to central Paris and do the typical tourist attractions as we only had a short amount of time, limited money and with all the people that seemed to be around also on holiday, 
+                            we knew all of the destinations would be packed. Not really ones for crowds and the rush of things, we took it easy in our own pace and were happy to explore the streets, view the architecture and try the cafés.
+                            <br>
+                            <br>
+                            Close to where we were staying in Chessy there was the small town of Marne La Vallée which had its own shopping centre and street of cafés and restaurants. 
+                            We decided to take one of the days to fully explore this small town and do some shopping. There is also La Valée Village within the town, 
+                            a designated shopping village much like Bicester Village within the UK. 
+                            All of the shops are mostly 70% discounted and also have no tax on them so it was great for picking up some bargains and also grabbing Jessica a birthday present! 
+                            Apart from this, we were so happy to try a local handmade ice cream and wander the streets while observing and photographing their architecture and ways of life. 
+                            It was a very refreshing and peaceful atmosphere and we felt very relaxed to be exploring like that.</p>
                     </div>
                 </article>
             </li>
+            <!-- DISNEYLAND -->
             <li class="row">
                 <article class="post">
-                    <img src="" alt="Disneyland"/>
+                    <img src="assets/img/blog/disneyland.jpg" alt="Disneyland"/>
                     <div class="post-toggle">
                         <span class="post-title">Disneyland</span><br>
                         <span class="post-author">By Jess</span><br>
-                        <span class="post-snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span><br><br>
+                        <span class="post-snippet">Want to hear about our trip to Disneyland?</span><br><br>
                         <span class="call-to-action">Click to read on</span>
                     </div>
+                    <!-- ACCORDION JS -->
                     <div class="post-content default">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <p>Taking Jessica there for her birthday was one of the most special things you could have witnessed, the smile on her face the entire time made everything worth it. 
+                            Having not been myself and Jessica hadn't since she was a young girl, it was a very special experience to share together and allowed us to purely have that freedom 
+                            to have fun and that childlike excitement together. It really is the happiest place on Earth. It was pure magic.
+                            <br>
+                            <br>
+                            We spent 2 full days at the magic kingdom and enjoyed every second of it. 
+                            As Jessica's birthday is in October and close to Halloween the decorations and parades for Autumn and Halloween had begun and it was magnificently spooky. 
+                            Being her favourite holiday of the year, it really made the experience extra special. Pumpkins covered the park, 
+                            giant Minnie and Mickey pumpkin heads illuminated were placed before the infamous Sleeping Beauty's Castle and some of the characters were dressed in Halloween outfits. 
+                            We were also lucky to be there at that time of year as the Villains of Disney animated films only come during this season; they also do a live musical show called "Its Good to be Bad" and perform all together. 
+                            Knowing we got to see things that you don't usually all round the rest of the year was incredible. 
+                            <br>
+                            <br>
+                            Not all that keen on rides, we didn't really spend much time or extra money queuing up and doing many of the rides which saved us alot of time to wander around the park and take photos. 
+                            But also the extra money that could be spent on food or other purchases. We found it was expensive like most people say however the worst part was the entrance fee, 
+                            we know from now if you will go again during the year it is definitely economically wiser to buy an annual pass. 
+                            Food wise we mainly survived on fast food during our trip as the fancier restaurants were very expensive and required bookings months in advance. We were happy to just go with the flow however and just be amongst the magic. 
+                            If we go again, we also know now to take prepacked snacks and bottles of drink as this would save money,time searching for somewhere affordable to eat and as well as the waiting time to be seated or served.</p>
                     </div>
                 </article>
             </li>
@@ -177,25 +270,25 @@
     <!-- GALLERY -->
     <section class="gallery">
         <a class="scroll" id="gallery"></a>
-        <hr/>
+        <hr>
         <h2>Gallery</h2>
         <p>Have a look at some of the things we have seen</p>
 
         <div class="wrapper">
             <div class="row">
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
             </div>
             <div class="row">
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
+                <div class="img4"></div>
+                <div class="img5"></div>
+                <div class="img6"></div>
             </div>
             <div class="row">
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
+                <div class="img7"></div>
+                <div class="img8"></div>
+                <div class="img9"></div>
             </div>
         </div>
         <hr>
