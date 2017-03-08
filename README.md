@@ -3,6 +3,7 @@ Author: Josef Bogunovic P1413098x
 <br>
 Project Title: TravelBugs
 <br>
+<br>
 PROJECT DESCRIPTION
 <br>
 This website was created as a fun project to beneift me and my girlfiend. we both love trevelling and ever since we have been together we have gone to various places as shown within the webiste. Its not all of them but it shows the start of our journey we have been thorugh. THe website opens up of an image of the south side of cyprus (the non turkish side). The photo was taken at one of the highest points of the troodos mountains. THe title is shown clearly on the picture "TravelBugs", the name was chosen because we have caugh a bug, a bug to travel! (i like the pun!). WHen scrollng down you will be an about us section which gives the user a little look into me and jess for you to get t know us that little bit better. There are two pictures which show who we are. THe next seciton is the blog. The blog shows the start of our journey with budapest, it was the first place we went together and one of our most cherished trips. THe picture on the blog for budapest is of the fishermans bastion on the buda side. THe next blog post is cyprus, this was more of a holiday for me as jess has lived there most of her life. The image on the cyprus post is of konnos bay in proteras. THe next post was of paris, we din't do an awful lot here as the plan was only really for disneyland for jesses birthday. THe image is of he mall next to one of the special outlet villages. The final blog post is of course, disneyland. It was honestly a magical place! i met Jafar!.
