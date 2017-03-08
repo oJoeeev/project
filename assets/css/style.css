@@ -368,7 +368,7 @@ div.img1 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i1.jpg');
+    background-image: url('../img/gallery/i1.JPG');
 }
 
 div.img1:hover {
@@ -384,7 +384,7 @@ div.img2 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i2.jpg');
+    background-image: url('../img/gallery/i2.JPG');
 }
 
 div.img2:hover {
@@ -416,7 +416,7 @@ div.img4 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i4.jpg');
+    background-image: url('../img/gallery/i4.JPG');
 }
 
 div.img4:hover {
@@ -432,7 +432,7 @@ div.img5 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i5.jpg');
+    background-image: url('../img/gallery/i5.JPG');
 }
 
 div.img5:hover {
@@ -447,7 +447,7 @@ div.img6 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i6.jpg');
+    background-image: url('../img/gallery/i6.JPG');
 }
 
 div.img6:hover {
@@ -479,7 +479,7 @@ div.img8 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i8.jpg');
+    background-image: url('../img/gallery/i8.JPG');
 }
 
 div.img8:hover {
@@ -495,7 +495,7 @@ div.img9 {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('../img/gallery/i9.jpg');
+    background-image: url('../img/gallery/i9.JPG');
 }
 
 div.img9:hover {
@@ -538,7 +538,6 @@ input, textarea {
     font-size: 1em;
     margin-bottom: 2em;
 }
-
 
 a.submit {
     background-color: #77DD77;
