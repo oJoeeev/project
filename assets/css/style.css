@@ -41,13 +41,13 @@ ul.grid {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/* SECTION STYLES, MEDIUM SCREENS */
 @media (max-width: 1000px) {
 	section {
 		padding: 100px 50px;
 	}
 }
-
+/* SECTION STYLES, SMALL SCREENS */
 @media (max-width: 600px) {
 	section {
 		padding: 80px 30px;
@@ -354,7 +354,13 @@ div.row {
     transition: flex 0.3s ease;
 }
 
-div.img {
+/*****************************************
+* Apologies for this long winded gallery,* 
+* Had toruble with each image            *
+*****************************************/
+
+
+div.img1 {
     height: 500px;
     width: 300px;
     margin: 2px;
@@ -362,13 +368,144 @@ div.img {
   	border: 1px solid #dddddd;
   	box-sizing: border-box;
     transition: flex 0.3s ease;
-    background-image: url('http://placehold.it/500x300');
+    background-image: url('../img/gallery/i1.jpg');
 }
 
-div.img:hover {
+div.img1:hover {
     flex: 1 1 90%;
     background-size: 100% 100%;
 }
+
+div.img2 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i2.jpg');
+}
+
+div.img2:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+div.img3 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i3.jpg');
+}
+
+div.img3:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+div.img4 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i4.jpg');
+}
+
+div.img4:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+div.img5 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i5.jpg');
+}
+
+div.img5:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+div.img6 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i6.jpg');
+}
+
+div.img6:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+div.img7 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i7.jpg');
+}
+
+div.img7:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+div.img8 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i8.jpg');
+}
+
+div.img8:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+div.img9 {
+    height: 500px;
+    width: 300px;
+    margin: 2px;
+    flex: 0.001 2 33%;
+  	border: 1px solid #dddddd;
+  	box-sizing: border-box;
+    transition: flex 0.3s ease;
+    background-image: url('../img/gallery/i9.jpg');
+}
+
+div.img9:hover {
+    flex: 1 1 90%;
+    background-size: 100% 100%;
+}
+
+/*****************************************
+*             ITS ALL OVER!!             *
+*****************************************/
 
 /*****************************************
 ====   7) CONTACT
@@ -402,7 +539,6 @@ input, textarea {
     margin-bottom: 2em;
 }
 
-input:active, textarea:active {}
 
 a.submit {
     background-color: #77DD77;
