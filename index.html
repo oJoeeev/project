@@ -11,13 +11,17 @@
     <title>TravelBugs</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- JS -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="smoothscroll.js"></script>
-    <script src="changetext.js"></script>
-    <script src="showquote.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/changetext.js"></script>
+    <script src="assets/js/showquote.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/submitform.js"></script>
+
+
 
 </head>
 
@@ -57,7 +61,7 @@
             <!-- JOE -->
             <li class="image">
                 <div class="context" id="joe">
-                    <img src="" alt="Joe">
+                    <img src="assets/img/joe.jpg" alt="Joe">
                     <!-- CALLS JS QUOTEHOVER -->
                     <p class="quote">"The biggest adventure you can take is to live the life of your dreams."</p>
                 </div>
@@ -75,7 +79,7 @@
             <!-- JESS -->
             <li class="image">
                 <div class="context" id="jess">
-                    <img src="" alt="Jess">
+                    <img src="assets/img/jess.jpg" alt="Jess">
                     <!-- CALLS JS QUOTEHOVER -->
                     <p class="quote">"Life is either a great adventure or nothing."</p>
                 </div>
@@ -105,7 +109,7 @@
         <ul class="grid">
             <li class="row">
                 <article class="post">
-                    <img src="" alt="Budapest"/>
+                    <img src="assets/img/blog/" alt="Budapest"/>
                     <div class="post-toggle">
                         <span class="post-title">Budapest</span><br>
                         <span class="post-author">By Joe</span><br>
@@ -135,15 +139,89 @@
                     </div>
                 </article>
             </li>
+            <li class="row">
+                <article class="post">
+                    <img src="" alt="Paris"/>
+                    <div class="post-toggle">
+                        <span class="post-title">Paris</span><br>
+                        <span class="post-author">By Joe</span><br>
+                        <span class="post-snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span><br><br>
+                        <span class="call-to-action">Click to read on</span>
+                    </div>
+                    <div class="post-content default">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </article>
+            </li>
+            <li class="row">
+                <article class="post">
+                    <img src="" alt="Disneyland"/>
+                    <div class="post-toggle">
+                        <span class="post-title">Disneyland</span><br>
+                        <span class="post-author">By Jess</span><br>
+                        <span class="post-snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span><br><br>
+                        <span class="call-to-action">Click to read on</span>
+                    </div>
+                    <div class="post-content default">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </article>
+            </li>
         </ul>
     </section>
 
+    <!-- GALLERY -->
+    <section class="gallery">
+        <a class="scroll" id="gallery"></a>
+        <hr/>
+        <h2>Gallery</h2>
+        <p>Have a look at some of the things we have seen</p>
 
+        <div class="wrapper">
+            <div class="row">
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+            </div>
+            <div class="row">
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+            </div>
+            <div class="row">
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+            </div>
+        </div>
+        <hr>
+    </section>
 
-    
+    <!-- CONTACT -->
+    <section class="contact">
+        <a class="scroll" id="contact"></a>
+        <hr/>
+        <h2>Contact Us</h2>
+        <p>Please feel free to contact us regarding any queries you might have, or just to say hi!</p>
 
+        <form>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" placeholder="John Doe">
+            <label for="email">e-mail</label>
+            <br>
+            <input type="email" name="email" placeholder="john.doe@email.com">
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" rows="5" placeholder="Hi there!"></textarea>
+            <a class="btn submit">Send</a>
+        </form>
+        <hr>
+    </section>
 </body>
-
-
 
 </html>
