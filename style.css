@@ -1,7 +1,58 @@
-body {
-    background-color: #fff;
-    font-size: 95.5%; 
-	font-family: Arial, 'Lucida Sans Unicode';
-	line-height: 1.5;
-	text-align: left;
+/**********************
+    GENERAL STYLES
+**********************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14pt sans-serif;
+    color: #848484;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*****************************************
+====   3) HERO SECTION
+*****************************************/
+
+.hero {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.hero .background-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-image: url('../img/'); /*@TODO ADD IMG*/
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 40pt;
+    font-family: ;/*@TODO FONT FAMILY*/
+}
+
+.hero h3 {
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: ;/*@TODO FONT FAMILY*/
+    margin-bottom: 2em;
 }
