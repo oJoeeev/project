@@ -9,73 +9,68 @@
 }
 
 html {
-    font-size: 14pt sans-serif;
-    color: #848484;
+    font: normal 14pt sans-serif;
+    color: #444;
 }
 
-ul, nav{
-	list-style: none;
+ul, nav {
+    list-style: none;
 }
 
 a {
-	font-family: 'Quicksand', sans-serif ;
-	color: #616161;
-	font-size: 8pt;
-	text-decoration: none;
+    text-decoration: none;
+    color: inherit;
 }
 
-section{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 125px 100px;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section h2.title{
-	color: #414a4f;
-	text-transform: capitalize; 
-	font: bold 32px 'Open Sans', sans-serif;
-	margin-bottom: 35px;
-	text-align: center;
+section h2.title {
+    font: bold 18pt sans-serif;
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 /*****************************************
-====   2) NAVIGATION BAR
+====   2) HEADER & NAVBAR
 *****************************************/
 
-header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 35px 100px 0;
-    
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
 }
 
-header h2{
-	font-family: 'Quicksand', sans-serif;
+header h2 {
+    /*@TODO FONT FAMILY */
+    position: absolute;
+    left: 1.5em;
 }
 
-header nav{
-	display: flex;
+header nav {
+    display: flex;
+    z-index: 10;
 }
 
-header nav li{
-	margin: 0 15px;
+header nav a {
+    margin: 0 1.5em;
 }
 
-header nav li:first-child{
-	margin-left: 0;	
+header nav a:first-child {
+    margin-left: 0;
 }
 
-header nav li:last-child{
-	margin-right: 0;	
+header nav a:last-child {
+    margin-right: 0;
 }
-
 
 /*****************************************
 ====   3) HERO SECTION
@@ -97,18 +92,20 @@ header nav li:last-child{
     height: 100%;
     background-size: cover;
     z-index: -1;
-    background-image: url('img/test1.jpg'); /*@TODO ADD IMG*/
+    background-image: url('img/heroimg.jpg');
 }
 
 .hero h1 {
     font-weight: bold;
     font-size: 40pt;
-    font-family: 'Quicksand', sans-serif;
+    font-family: /*@TODO FONT FAMILY*/
+    sans-serif;
 }
 
 .hero h3 {
     font-weight: bold;
     font-size: 24pt;
-    font-family: 'Quicksand', sans-serif;
+    font-family: /*@TODO FONT FAMILY*/
+    sans-serif;
     margin-bottom: 2em;
 }
