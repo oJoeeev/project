@@ -35,6 +35,8 @@ My next problem was the about section. I could not figure out the massive gap be
 
 My final problem is the galery, i couldnt add multiple images via html file, instead i had to do a long winded way by creating a div for each image and keeping the style the same so the gallery would work efficiently (i do apologise)
 
+Project was tested with google chrome and its emulator and only social icons were out of place.
+
 MISSED FEATURES
 <br>
 There was a couple of features I wanted to implement but didnt have time to complete them.
