@@ -35,6 +35,13 @@ section {
 	padding: 125px 100px;
 }
 
+ul.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media (max-width: 1000px) {
 	section {
 		padding: 100px 50px;
@@ -59,8 +66,9 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #fff;
+	color: #555;
 	padding: 35px 100px 30px;
+    background-color: #fff;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 
@@ -125,15 +133,13 @@ header nav li:last-child {
 .hero h1 {
     font-weight: bold;
     font-size: 40pt;
-    font-family: /*@TODO FONT FAMILY*/
-    sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .hero h3 {
     font-weight: bold;
     font-size: 24pt;
-    font-family: /*@TODO FONT FAMILY*/
-    sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 2em;
 }
 
@@ -141,7 +147,7 @@ header nav li:last-child {
 	.hero {
 		min-height: 600px;
 	}
-    
+
 	.hero h1 {
 		font-size: 48px;
 	}
@@ -149,4 +155,121 @@ header nav li:last-child {
 	.hero h3 {
 		font-size: 24px;
 	}
+}
+
+/*****************************************
+====   4) ABOUT SECTION
+*****************************************/
+
+.about {
+    background-color: #fff;
+}
+
+.about .grid li {
+    height: 15em;
+}
+
+.about .grid li:first-child, .about .grid li:nth-child(2) {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.about .grid li.image {
+    flex-basis: 10%;
+    margin-right: 2em;
+}
+
+li.image>div.context {
+    height: 12em;
+    width: 12em;
+}
+
+div.context>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.quote {
+    display: none;
+    position: relative;
+    bottom: 50%;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about .grid li.text {
+    flex-basis: 75%;
+}
+
+.social {
+    display: inline-block;
+    background-image: url(../img/socialicons.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px 0px 0px;
+}
+
+.social.l {
+    background-position: 0px 0px;
+}
+
+.social.l:hover {
+    background-position: 0px -30px;
+}
+
+.social.f {
+    background-position: -30px 0px;
+}
+
+.social.f:hover {
+    background-position: -30px -30px;
+}
+
+.social.t {
+    background-position: -60px 0px;
+}
+
+.social.t:hover {
+    background-position: -60px -30px;
+}
+
+.social.p {
+    background-position: -90px 0px;
+}
+
+.sociali.p:hover {
+    background-position: -90px -30px;
+}
+
+.social.d {
+    background-position: -120px 0px;
+}
+
+.social.d:hover {
+    background-position: -120px -30px;
+}
+
+/*
+	FOR SMALLER SCREENS, EVERYTHING FULL WIDTH
+*/
+@media (max-width: 1000px) {
+    .about .grid li.image, .about .grid li.text {
+        flex-basis: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .about .grid li.text {
+        margin-bottom: 5em;
+    }
+    .about .grid li.image {
+        margin-bottom: -1em;
+    }
+    div.context {
+        margin: 0 auto;
+    }
 }
