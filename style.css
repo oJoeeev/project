@@ -1,6 +1,6 @@
-/**********************
-    GENERAL STYLES
-**********************/
+/*****************************************
+====   1) GENERAL STYLES
+*****************************************/
 
 * {
     margin: 0px;
@@ -11,15 +11,71 @@
 html {
     font-size: 14pt sans-serif;
     color: #848484;
-    width: 100%;
-    height: 100%;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+ul, nav{
+	list-style: none;
 }
+
+a {
+	font-family: 'Quicksand', sans-serif ;
+	color: #616161;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 125px 100px;
+}
+
+section h2.title{
+	color: #414a4f;
+	text-transform: capitalize; 
+	font: bold 32px 'Open Sans', sans-serif;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+/*****************************************
+====   2) NAVIGATION BAR
+*****************************************/
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 100px 0;
+    
+}
+
+header h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
+header nav{
+	display: flex;
+}
+
+header nav li{
+	margin: 0 15px;
+}
+
+header nav li:first-child{
+	margin-left: 0;	
+}
+
+header nav li:last-child{
+	margin-right: 0;	
+}
+
 
 /*****************************************
 ====   3) HERO SECTION
@@ -41,18 +97,18 @@ section {
     height: 100%;
     background-size: cover;
     z-index: -1;
-    background-image: url('../img/'); /*@TODO ADD IMG*/
+    background-image: url('img/test1.jpg'); /*@TODO ADD IMG*/
 }
 
 .hero h1 {
     font-weight: bold;
     font-size: 40pt;
-    font-family: ;/*@TODO FONT FAMILY*/
+    font-family: 'Quicksand', sans-serif;
 }
 
 .hero h3 {
     font-weight: bold;
     font-size: 24pt;
-    font-family: ;/*@TODO FONT FAMILY*/
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 2em;
 }
