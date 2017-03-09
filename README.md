@@ -35,17 +35,26 @@ My next problem was the about section. I could not figure out the massive gap be
 
 My final problem is the galery, i couldnt add multiple images via html file, instead i had to do a long winded way by creating a div for each image and keeping the style the same so the gallery would work efficiently (i do apologise)
 
-Project was tested with google chrome and its emulator and only social icons were out of place.
-
 MISSED FEATURES
 <br>
 There was a couple of features I wanted to implement but didnt have time to complete them.
 
 The first feature I wanted to do would of been to add a loading screen animation before the webiste pops up, I feel that this gives a website an incentive to the user that somethig good is loading so they are excited to see the site.
 
-The final feature I wanted to implement would be a navigation hide/show feature. I did attempt this via javascript but I could not get it to work after many attempts so scrapped it and decided to keep the nav bar at a fixed position.
+THe final feature I wanted to implement would be a navigation hide/show feature. I did attempt this via javascript but I could not get it to work after many attempts so scrapped it and decided to keep the nav bar at a fixed position.
 
-I hope you enjoyed reading this file and having a look at my webiste and seeing some of my journeys so far. The website will continue to be updated in my spare time as I want to add all of the places I have traveled to as a memento to me to look back at in the future. 
+I hope you enjoyed reading this file and having a look at my webiste and seeing some of my journeys so far. The website will continue to be updated in my spare time as I want to add all of the places I have traveled to as a memento to me to look back at in the future.
+
+							**Sketches**
+![Home](sketches/homesketch.png)
+![About](sketches/aboutsketch.png)
+![Blog](sketches/blogsketch.png)
+![Home](sketches/gallerysketch.png)
+![Home](sketches/contactsketch.png)
+
+
+
+
 
 
 
